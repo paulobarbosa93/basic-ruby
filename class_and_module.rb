@@ -21,7 +21,8 @@ class User
 end
 
 user = User.new
-cat = Animals::Cat.new
 user.say_hello
 user.say_goodbye
+
+cat = Animals::Cat.new
 cat.say_cat
